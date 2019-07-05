@@ -1,29 +1,50 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-  html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
+.palette {
+  background-color: #06d6a0;
+  background-color: #26547c;
+  background-color: #ef476f;
+  background-color: #ffd166;
+  background-color: #fffcf9;
+}
 
-  .palette {
-    background-color: #06D6A0;
-    background-color: #26547C;
-    background-color: #EF476F;
-    background-color: #FFD166;
-    background-color: #FFFCF9;
-  }
+h1 {
+  margin: 0;
+}
+
+header > .navbar > a > h2 {
+  display: inline;
+  padding: 0 10px 0 0;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #06d6a0;
+  padding-top: 20px;
+  font-size: 10px;
+}
 
 .topbar {
-    display: inline-block;
-    background-color: #06D6A0;
+  color: white;
+  padding: 100px 0 0 30px;
+  display: inline;
 }
 
-.nav {
-    display: inline-block;
-    text-align: right;
+.navbar {
+  float: right;
+  padding-top: 4px;
+  padding-right: 30px;
+  font-size: 12px;
+  /* display: inline; */
 }
 
-.Cats {
-    
-}
+
