@@ -9,6 +9,7 @@
   background-color: #ef476f;
   background-color: #ffd166;
   background-color: #fffcf9;
+  background-color: #f2f2f2; 
 }
 
 h1 {
@@ -20,8 +21,10 @@ header > .navbar > a > h2 {
   padding: 0 10px 0 0;
 }
 
-body {
-  margin: 0;
+main {
+  margin: auto;
+  max-width: 900px;
+    display: block;
 }
 
 header {
@@ -40,11 +43,70 @@ header {
 }
 
 .navbar {
+  font-weight: 200;
   float: right;
   padding-top: 4px;
   padding-right: 30px;
   font-size: 12px;
-  /* display: inline; */
+  display: inline;
+}
+
+.main-body {
+    background-color: #26547c;
+
+}
+
+.main-body > div > img {
+    max-width: 60%;
+    display: inline-block;
+    margin-right: 0;
+}
+
+h5 {
+    font-size: 30px;
+    /* float: right; */
+    color: white;
+    box-sizing: content-box;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.cats {
+    background-color: #ffd166;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px
+}
+
+.products {
+    background-color: #f2f2f2; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    max-width: 900px;
+      display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+    max-width: 900px;
+      display: block;
+}
+
+.thumbnail {
+    width: 270px;
+    border: 3px solid black;
+}
+
+.kitty-thumbnail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-left: 0;
+    margin-right: 10px;
 }
 
 
