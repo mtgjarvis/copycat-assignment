@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  .palette {
+    background-color: #06D6A0;
+    background-color: #26547C;
+    background-color: #EF476F;
+    background-color: #FFD166;
+    background-color: #FFFCF9;
+  }
+
+.topbar {
+    display: inline-block;
+    background-color: #06D6A0;
+}
+
+.nav {
+    display: inline-block;
+    text-align: right;
+}
+
+.Cats {
+    
+}
