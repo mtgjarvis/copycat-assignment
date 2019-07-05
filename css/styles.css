@@ -108,5 +108,32 @@ ul {
     margin-left: 0;
     margin-right: 10px;
 }
+.fun-meow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 0;
+}
+
+.meowgrid {
+    background-color: #26547c;
+    margin-top: 0;
+}
+
+h4 {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 10px 0 10px 0;
+}
+
+.footer {
+    display: block;
+    max-width: 900px;
+    text-align: right;
+    background-color: #06d6a0;
+    margin-top: 0;
+    height: 50px;
+    font-size: 25px;
+}
 
 
